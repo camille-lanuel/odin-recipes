@@ -1,6 +1,11 @@
+:root {
+    --background: antiquewhite;
+    --text: darkslategray;
+}
+
 body{
-    background-color:antiquewhite;
-    color:darkslategray;
+    background-color: var(--background);
+    color: var(--text);
     max-width: 650px;
     margin: auto;
     padding: 2rem 0.5rem;
@@ -17,7 +22,9 @@ a{
     color:inherit;
 }
 
-a:hover {
+::selection, a:hover {
+    background-color: var(--text);
+    color:var(--background);
     text-decoration: none;
 }
 
