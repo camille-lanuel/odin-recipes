@@ -1,6 +1,7 @@
 :root {
-    --background: antiquewhite;
-    --text: darkslategray;
+    --background:#FFEBCD; /* Blanched almond */
+    --text:#003366;  /* Dark midnight blue */
+    --accent:#ff4500; /* Orange red */
 }
 
 body{
@@ -23,7 +24,7 @@ a{
 }
 
 ::selection, a:hover {
-    background-color: var(--text);
+    background-color: var(--accent);
     color:var(--background);
     text-decoration: none;
 }
