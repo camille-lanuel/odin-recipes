@@ -1,8 +1,8 @@
 :root {
-    --background:#1f302b; /* dark lime green */
-    --text:#e9f0c5;  /* light cream green */
-/*    --accent:#99af19; /* apple green */
-    --accent:#EFAAC4; /* pink */
+    --background: #1f302b; /* dark lime green */
+    --text: #e9f0c5;  /* light cream green */
+/*    --accent: #99af19; /* apple green */
+    --accent: #EFAAC4; /* pink */
 }
 
 body{
@@ -10,15 +10,15 @@ body{
     color: var(--text);
     max-width: 650px;
     margin: auto;
-    padding: 2rem 0.5rem;
+    padding: 24px 8px;
     font-family: "Comfortaa", "Quicksand", "Verdana", sans-serif;
     font-size: 18px;
     line-height: 1.5;
 }
 
 h1{
+    color: var(--accent);
     text-align: center;
-    color:var(--accent);
 }
 
 a{
@@ -27,8 +27,12 @@ a{
 
 ::selection, a:hover {
     background-color: var(--accent);
-    color:var(--background);
+    color: var(--background);
     text-decoration: none;
+}
+
+#index-link {
+    margin-bottom: 48px;
 }
 
 #prep li {
