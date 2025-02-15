@@ -1,7 +1,8 @@
 :root {
-    --background:#FFEBCD; /* Blanched almond */
-    --text:#003366;  /* Dark midnight blue */
-    --accent:#ff4500; /* Orange red */
+    --background:#1f302b; /* dark lime green */
+    --text:#e9f0c5;  /* light cream green */
+/*    --accent:#99af19; /* apple green */
+    --accent:#EFAAC4; /* pink */
 }
 
 body{
@@ -10,13 +11,14 @@ body{
     max-width: 650px;
     margin: auto;
     padding: 2rem 0.5rem;
-    font-family: monospace;
+    font-family: Quicksand;
     font-size: 18px;
     line-height: 1.5;
 }
 
 h1{
     text-align: center;
+    color:var(--accent);
 }
 
 a{
