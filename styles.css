@@ -8,7 +8,7 @@
 body{
     background-color: var(--background);
     color: var(--text);
-    max-width: 650px;
+    max-width: 800px;
     margin: auto;
     padding: 24px 8px;
     font-family: "Comfortaa", "Quicksand", "Verdana", sans-serif;
