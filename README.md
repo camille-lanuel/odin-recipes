@@ -10,6 +10,6 @@ This is my solution to the [Recipes](https://www.theodinproject.com/lessons/foun
 
 # Screenshots
 
-![](/home/camille/Documents/code/the_odin_project/odin-recipes/screenshots/screenshot_cookies.png)
+![](screenshots/screenshot_cookies.png)
 
-![](/home/camille/Documents/code/the_odin_project/odin-recipes/screenshots/screenshot_meal_ideas.png)
+![](screenshots/screenshot_meal_ideas.png)
